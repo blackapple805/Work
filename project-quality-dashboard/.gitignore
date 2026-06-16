@@ -1,107 +1,22 @@
-# ====================
-# Node.js
-# ====================
+# Dependencies
+node_modules/
+
+# Build output
+dist/
 
 # Logs
-logs/
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# Dependency directories
-**/node_modules/
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# ====================
-# React (Frontend)
-# ====================
-
-# Build output
-frontend/build/
-frontend/dist/
-
-# Environment variables
-frontend/.env
-frontend/.env.local
-frontend/.env.development.local
-frontend/.env.test.local
-frontend/.env.production.local
-
-# ====================
-# Backend
-# ====================
-
-# Build output
-backend/build/
-backend/dist/
-
-# Environment variables
-backend/.env
-backend/.env.local
-backend/.env.development.local
-backend/.env.test.local
-backend/.env.production.local
-
-# ====================
-# Database
-# ====================
-
-# MySQL data directory (if persisted outside Docker)
-# You can ignore this if data is managed via Docker volumes
-mysql_data/
-
-# ====================
-# Docker
-# ====================
-
-# Docker Compose override file
-docker-compose.override.yml
-
-# Environment variables for Docker (if separate)
-.env.docker
-
-# ====================
-# OS Specific
-# ====================
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
-ehthumbs.db
-
-# ====================
-# IDEs and Editors
-# ====================
-
-# VSCode
+# Editor / OS
 .vscode/
-
-# IntelliJ
 .idea/
+.DS_Store
+Thumbs.db
 
-# Sublime Text
-*.sublime-project
-*.sublime-workspace
+# Env
+.env
+.env.local
 
-# Atom
-.atom/
-
-# ====================
-# Miscellaneous
-# ====================
-
-# Temporary files
-*.tmp
-*.swp
-*~
-
-# Coverage reports
-coverage/
+*.png
+!docs/*.png
